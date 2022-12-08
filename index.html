@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Instagram</title>
+</head>
+
+<body>
+
+    <div class="conteiner-imagem">
+        <img src="./img/celular.png" alt="Imagem de celular" class="img-cell">
+        <img src="./img/insta1.png" class="imagem-celular">
+        <img src="./img/insta2.png" class="imagem-celular" id="troca-imagem"> 
+    </div>
+
+    <div class="caixa-maior">
+
+        <div class="caixa-menor">
+            <img src="./img/insta-logo.png" alt="Logo instagram" class="logo-insta"> 
+
+
+            <input placeholder="Telefone, nome de usuário ou email">
+            <input placeholder="Senha">
+
+            <button>Entrar</button>
+
+            <a href="https://pt-br.facebook.com/" class="loguin-face">Entrar com o facebook</a>
+            <a href="https://www.instagram.com/accounts/password/reset/" class="esqueceu-senha">Esqueceu a senha?</a>
+        </div>
+
+        <div  class="conteiner-cadastro">
+            <P class="paragrafo-conta">Não tem uma conta?</P><a class="link-cadastro" href="https://www.instagram.com/accounts/emailsignup/">Cadastre-se</a>
+        </div>
+
+        <P class="paragrafo-epp">Obitenha o aplicativo</P>
+
+        <div class="conteiner-app">
+         <img src="./img/ios.png" alt="Logo do ios" class="logo-app">
+         <img src="./img/google.png" alt="Logo do google" class="logo-app">
+        </div>
+
+    </div>
+
+</body>
+    <script>
+       let imagem = document.getElementById("troca-imagem")
+
+       function trocaimagem(){
+
+       if (imagem.style.opacity == 0){
+          imagem.style.opacity = 1
+       }
+
+    else{
+        imagem.style.opacity = 0
+    }
+
+    }
+    {
+        imagem.style.opacity = 0
+    }
+    setInterval(function () {
+        trocaimagem()
+    }, 4000)
+
+  
+
+    </script>
+
+</html>
