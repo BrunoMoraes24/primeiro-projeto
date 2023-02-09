@@ -135,4 +135,52 @@ button
     width: 150px;
 }
 
+@media screen and (max-width:900px)
+{
 
+    .conteiner-imagem
+    {
+        display: none;
+    }
+
+
+    .caixa-menor
+    {
+        border: none;
+        background: none;
+        align-items: center;
+    }
+
+    .logo-insta
+    {
+        width: 235px;
+    }
+
+    input
+    {
+        width: 235px;
+    }
+
+    button
+    {
+        width: 235px;
+    }
+
+    .paragrafo-epp
+    {
+        display: none;
+    }
+
+    .conteiner-app
+    {
+        display:none;
+    }
+
+    .conteiner-cadastro
+    {
+        padding: revert;
+        margin: revert;
+        border:none;
+    }
+
+}
