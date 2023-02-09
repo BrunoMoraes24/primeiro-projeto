@@ -4,7 +4,7 @@
 <h2> Esse foi o primeiro projeto que aprendi com o <a href="https://www.linkedin.com/in/rodolfomori/">Rodolfo Mori<a><h2>
 
 <img rsc="https://github.com/BrunoMoraes24/primeiro-projeto/blob/master/img/Design%20sem%20nome.png?raw=true">
- 
+<img rsc="https://github.com/BrunoMoraes24/primeiro-projeto/blob/master/img/Design%20sem%20nome.png?raw=true">
 
 <br>
 <br>
